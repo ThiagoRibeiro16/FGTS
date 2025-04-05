@@ -5,7 +5,7 @@ double valorSalario;
 double FGTS;
 
 Console.Write("Qual é o sálario que vamos calcular o FGTS? ");
-valorInicial = Console.ReadLine();
+valorInicial = Console.ReadLine()!;
 
 valorSalario = Convert.ToDouble(valorInicial);
 
